@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>testreport_onbuild Test Plan - Wyszukiwarka - fr0zu</title>
+<link type="text/css" rel="stylesheet" href="https://www.test-link.pl/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="https://www.test-link.pl/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Raport z wykonania Planu Testów (wydanie)</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Projekt testowy: Testowy projekt<br/>Plan testu: Test Plan - Wyszukiwarka - fr0zu<br/>Wydanie: Regresja dla nowego komponentu ver. 0.0.9</p></div>
+<div class="summary"><p id="printedby">Wydrukowany przez TestLink dnia 26.09.2023</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Spis treści</h1><div class="toc"><p style="padding-left: 10px;"><b><a href="#toc_1_1">1.1.Wyszukiwarka - fr0zu</a></b></p>
+<p style="padding-left: 30px;"><a href="#toc_tc4504">TP-629: Weryfikacja walidacji</a></p><p style="padding-left: 30px;"><a href="#toc_tc4506">TP-630: Weryfikacja logiki wyszukiwarki</a></p></div><h1 class="doclevel" style="page-break-before: avoid;"  >Plan testu: Test Plan - Wyszukiwarka - fr0zu</h1>
+<div class="txtlevel"><h3>1. Wstęp</h3>
+
+<p>Gł&oacute;wnym celem działań testowych jest dostarczenie interesariuszom informacji o jakości testowanego produktu.</p>
+
+<p>W przygotowanym dokumencie zostały zebrane kluczowe informacje na temat działań testowych. Zostały wyszczeg&oacute;lnione wszystkie komponenty oprogramowania, kt&oacute;re zostaną poddane weryfikacji, typy test&oacute;w jakie zostaną przeprowadzone.</p>
+
+<h3>2. Typy test&oacute;w</h3>
+
+<ul>
+	<li>
+	<h2><strong>Realizowane typy test&oacute;w:&nbsp;</strong></h2>
+	</li>
+	<li>Jednostkowe</li>
+	<li>Funkcjonalne</li>
+	<li>Wydajnościowe</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<ul>
+	<li>
+	<h2><strong>Typy test&oacute;w, kt&oacute;re nie zostaną przeprowadzone:</strong></h2>
+	</li>
+	<li>Testy automatyczne - ze względu na niewystarczający budżet na etap związany z&nbsp;testowaniem oprogramowania</li>
+</ul>
+
+<h3>3. Przedmioty test&oacute;w</h3>
+
+<p>Komponentem poddawany&nbsp;testom jest wyszukiwarka ze strony gł&oacute;wnej Booking.com z uwzględnieniem całej logiki filtrowania po odpowiednich polach.</p>
+
+<h3>4. Kryteria zaliczenia/niezaliczenia test&oacute;w</h3>
+
+<ul>
+	<li>Wykonanie zaprojektowanych przypadk&oacute;w testowych</li>
+	<li>Czas odpowiedzi serwera nie przekracza 700ms</li>
+</ul>
+
+<h3>5. Kryteria wejścia/wyjścia</h3>
+
+<ol>
+	<li><strong>Kryteria wejścia:</strong></li>
+</ol>
+
+<ul>
+	<li>Zakończona jest faza impementacji wyszukiwarki</li>
+	<li>Działające i skonfigurowane środowisko testowe</li>
+	<li>Dostęp do działającej i skonfigurowanej maszyny wirtualnej</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; 2.<strong> Kryteria wyjścia:</strong></p>
+
+<ul>
+	<li>Wszystkie przypadki testowe zostały zakończone pomyślnie</li>
+	<li>Komponent spełnia wszystkie ustalone założenia z załączonej dokumentacji</li>
+</ul>
+
+<h3>6. Lista wymagań/funkcjonalności do przetestowania</h3>
+
+<p>Załączenie wszystkich dokumentacji, user story, scenariuszy&nbsp;itp.</p>
+
+<h3>7. Środowisko testowe</h3>
+
+<ul>
+	<li>Testowy serwer (Development)</li>
+	<li>System Windows 10 Home 64 bit</li>
+	<li>Przeglądarki biorące udział w testach: Firefox,&nbsp;Edge, Opera, Safari</li>
+</ul>
+
+<h3>8. Harmonogram test&oacute;w</h3>
+
+<ol>
+	<li><strong>Przeprowadzenie test&oacute;w funkcjonalnych:</strong></li>
+</ol>
+
+<ul>
+	<li>Weryfikacja funkcjonalności w oparciu o user story - <strong>3h</strong></li>
+	<li>Wykonanie wcześniej zaprojektowanych przypadk&oacute;w testowych - <strong>1h</strong></li>
+	<li>Weryfikacja warstwy backendowej</li>
+</ul>
+
+<p>&nbsp; &nbsp; &nbsp; 2. <strong>Przeprowadzenie test&oacute;w wydajnościowych:</strong></p>
+
+<ul>
+	<li>Weryfikacja ile wynosi średni czas odpowiedzi</li>
+	<li>Weryfikacja jaka jest maksymalna ilośc request&oacute;w przy jakiej wyszukiwarka działa&nbsp;stabilnie</li>
+</ul>
+
+<h3>9. Raport z test&oacute;w</h3>
+
+<ul>
+	<li>Lista zrealizowanych przypadk&oacute;w testowych wraz ze statusami</li>
+	<li>Pomiary z test&oacute;w wydajnościowych</li>
+	<li>Inne raporty z test&oacute;w</li>
+</ul>
+
+<h3>10. Lista narzędzi&nbsp;</h3>
+
+<ul>
+	<li>Jmeter</li>
+	<li>TestLink</li>
+	<li>Jira</li>
+	<li>BrowserStack</li>
+</ul>
+
+<h3>11. Zarządzanie incydentami, błędami</h3>
+
+<p>W procesie testowym każdy wykryty błąd powinien być odpowiednio zaraportowany do systemu&nbsp;Jira.</p>
+
+<p>Uwzględniając przy tym priorytet błędu, osobę przypisaną (developera), komponent, kt&oacute;rego dotyczy problem.</p>
+
+<p>Zgodnie z przyjętym flow przez naszą organizację taki problem powinien zostać naprawiony przez dewelopera i trafić do retest&oacute;w.</p>
+
+<h3>12. Role i odpowiedzialność</h3>
+
+<p>Jan Kowalski - implementacja skrypt&oacute;w test&oacute;w automatycznych</p>
+
+<p>Jan Nowak - wykonywanie przypadk&oacute;w testowych</p>
+
+<p>XYZ - projektowanie przypadk&oacute;w testowych</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
+ <br/><p></p><a name='toc_1_1'></a>
+<h1 class='doclevel'>1.1.Zestaw testów : Wyszukiwarka - fr0zu</h1>
+<a name="toc_tc4504"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="6">Przypadek testowy TP-629: Weryfikacja walidacji&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="5">fr0zu</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td><td><span class="label">Uwagi do kroku:</span></td><td><span class="label">Status wykonania kroku:</span></td></tr><tr><td width="5">1</td><td><p>Przechodzimy na stronę booking.com</p>
+</td><td><p>Wyszukiwarka wczytała się pomyślnie</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">2</td><td><p>Usuwamy wartośc z pola &quot;Dokąd się wybierasz&quot; i klikamy w&nbsp;przycisk &quot;Szukaj&quot;</p>
+</td><td><p>Pojawia się komunikat walidacyjny &quot;Wybierz cel podr&oacute;ży, aby rozpocząć wyszukiwanie.&quot;</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">3</td><td><ol>
+	<li>Uzupełniamy wartość w polu &quot;Dokąd się wybierasz&quot; frazą &quot;Gdańsk&quot;</li>
+	<li>Klikamy w przycisk &quot;Szukaj&quot;</li>
+</ol>
+</td><td><ol>
+	<li>Pojawia się strona searchresults z dostępnymi wynikami wyszukiwania</li>
+	<li>Widoczna jest fraza &quot;Gdańsk: znaleziono XXX obiekt&oacute;w&quot; (<em>gdzie &quot;XXX&quot; to liczba&nbsp;całkowita</em>)</li>
+	<li>Widoczna jest boczna wyszukiwarka &quot;Szukaj&quot;</li>
+</ol>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">4</td><td><p>Klikamy w kontrolkę &quot;Data zameldowania&quot;</p>
+</td><td><p>Zablokowane są wszystkie daty wcześniejsze niż data dzisiejsza</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">5</td><td><p>Klikamy w kontrolkę &quot;Data wymeldowania&quot;</p>
+</td><td><p>Zablokowane są wszystkie wcześniejsze daty w date pickerze niż data dzisiejsza</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">6</td><td><p>Klikamy w przycisk &quot;Szukaj&quot;</p>
+</td><td><ul>
+	<li>Strona została przeładowana</li>
+	<li>Pole &quot;Data zameldowania&quot; otrzymała&nbsp;focusa</li>
+	<li>Widoczny jest Date Picker</li>
+</ul>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="5">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="5"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priorytet:</span></td><td colspan="5">Średni</td></tr>
+<tr><td colspan="6"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="5">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="5">&nbsp;Brak<br/></td></tr>
+<tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Szczegóły wykonania przypadku</td><td colspan="5">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Wydanie</td><td colspan="5">Regresja dla nowego komponentu ver. 0.0.9</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="5" >fr0zu</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Wynik wykonania:</span></td><td  colspan="5" ><b>Pozytywny</b></td></tr>
+<tr><td width="20%"><span class="label">Typ wykonania:</span></td><td  colspan="5" ><b>manualne</b></td></tr>
+<tr><td width="20%"><span class="label">Szacowany czas (min):</span></td><td  colspan="5" ><b>20.00</b></td></tr>
+</table>
+</div>
+<a name="toc_tc4506"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="6">Przypadek testowy TP-630: Weryfikacja logiki wyszukiwarki&nbsp;<span style="font-size: 80%;">[Wersja : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor przypadku:</span></td><td colspan="5">fr0zu</td></tr>
+<tr><td><span class="label">#:</span></td><td><span class="label">Opis operacji:</span></td><td><span class="label">Spodziewane rezultaty:</span></td><td><span class="label">Uwagi do kroku:</span></td><td><span class="label">Status wykonania kroku:</span></td></tr><tr><td width="5">1</td><td><p>Przechodzimy na stronę booking.com</p>
+</td><td><p>Wyszukiwarka wczytała się pomyślnie</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">2</td><td><p>Klikamy w pole &quot;Dokąd się wybierasz&quot;</p>
+</td><td><p>Pojawiają się popularne miejsca w pobliżu</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">3</td><td><p>Wpisujemy w pole &quot;Dokąd się wybierasz&quot; frazę &quot;Warszawa&quot;</p>
+</td><td><p>Na pierwszej pozycji w podpowiedzi pojawia się lokalizacja &quot;Warszawa&quot;</p>
+</td><td></td><td>Negatywny</td></tr><tr><td width="5">4</td><td><p>Klikamy w pole datowe</p>
+</td><td><p>Pojawia się Date Picker z dostępnym przedziałem</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">5</td><td><p>Wybieramy dostępny zakres z Date Picker`a</p>
+</td><td><p>Zakres został poprawnie wprowadzony do pola datowego</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">6</td><td><p>Klikamy w pole &quot;Ilość os&oacute;b&quot;</p>
+</td><td><ul>
+	<li>Pojawił się PopUp z możliwością wyboru:</li>
+</ul>
+
+<ol>
+	<li>Liczby dzieci</li>
+	<li>Liczby dorosłych</li>
+	<li>Liczby pokoi</li>
+</ol>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="5">7</td><td><p>Inkrementujemy wartość &quot;Ilość dzieci&quot;</p>
+</td><td><p>Pojawiło się dodatkowe pole &quot;Wymagany wiek&quot;</p>
+</td><td></td><td>Pozytywny</td></tr><tr><td width="20%" valign="top"><span class="label">Typ wykonania:</span></td><td colspan="5">manualne</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Szacowany czas wykonania (min):</span></td><td colspan="5"></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Priorytet:</span></td><td colspan="5">Średni</td></tr>
+<tr><td colspan="6"></td></tr><tr><td width="20%" valign="top"><span class="label">Wymagania</span><td colspan="5">&nbsp;Brak<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Słowa kluczowe:</span></td><td colspan="5">&nbsp;Brak<br/></td></tr>
+<tr style="font-weight: bold;background: #EEE;text-align: left;"><td width="20%" valign="top">Szczegóły wykonania przypadku</td><td colspan="5">&nbsp;</td></tr>
+<tr><td width="20%" valign="top">Wydanie</td><td colspan="5">Regresja dla nowego komponentu ver. 0.0.9</td></tr>
+<tr><td width="20%" valign="top">Tester</td><td  colspan="5" >fr0zu</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Wynik wykonania:</span></td><td  colspan="5" ><b>Negatywny</b></td></tr>
+<tr><td width="20%"><span class="label">Typ wykonania:</span></td><td  colspan="5" ><b>manualne</b></td></tr>
+<tr><td width="20%"><span class="label">Szacowany czas (min):</span></td><td  colspan="5" ><b>25.00</b></td></tr>
+</table>
+</div>
+<h1 class="doclevel">Metryki czasów wykonania przypadków</h1>
+<div>
+<p>Czas użyty na wykonanie przypadków testowych (min):45</p>
+</div>
+
+</body>
+</html>
