@@ -1,0 +1,46 @@
+ID Facebok 1.1
+
+Tytuł: Nieprawidłowe dane logowania się do aplikacji
+
+Środowisko: Facebook.com
+
+Wersja: 0.0.1
+
+Warunek wstępny: Niezalogowany użytkownik, nieposiadający aktywnego konta w aplikacji.
+
+Kroki do reprodukcji:
+1. Wprowadzenie adresu e-mail lub numeru telefonu
+2. Wprowadzenie hasła
+3. Kliknięcie przycisku "Zaloguj się"
+
+Oczekiwany rezultat: Nieprawidłowe dane logowania. 
+
+Warunki końcowe: Niezalogowany użytkownik. Widoczny komunikat o nieprawidłowych danych logowania.
+
+Dane testowe: Nieprawidłowy e-mail lub numer telefonu, nieprawidłowe hasło
+
+Autor: Sebastian
+
+
+ID Facebook 1.2
+
+Tytuł: Prawidłowe logowanie się do aplikacji
+
+Środowisko: Facebook.com
+
+Wersja: 0.0.1
+
+Warunek wstępny: Niezalogowany użytkownik, posiadający aktywne konto w aplikacji.
+
+Kroki do reprodukcji:
+1. Wprowadzenie adresu e-mail lub numeru telefonu
+2. Wprowadzenie hasła
+3. Kliknięcie przycisku "Zaloguj się"
+
+Oczekiwany rezultat: Prawidłowe zalogowanie się do aplikacji jako użytkownik.
+
+Warunki końcowe: Zalogowany użytkownik. Widoczny ekran strony głównej.
+
+Dane testowe: Prawidłowy e-mail lub numer telefonu, prawidłowe hasło
+
+Autor: Sebastian
