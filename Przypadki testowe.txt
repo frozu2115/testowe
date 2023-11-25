@@ -21,7 +21,7 @@ Dane testowe: Nieprawidłowy e-mail lub numer telefonu, nieprawidłowe hasło
 
 Autor: Sebastian
 
-
+//
 ID Facebook 1.2
 
 Tytuł: Prawidłowe logowanie się do aplikacji
@@ -42,5 +42,29 @@ Oczekiwany rezultat: Prawidłowe zalogowanie się do aplikacji jako użytkownik.
 Warunki końcowe: Zalogowany użytkownik. Widoczny ekran strony głównej.
 
 Dane testowe: Prawidłowy e-mail lub numer telefonu, prawidłowe hasło
+
+Autor: Sebastian
+
+//
+ID Facebook 1.3
+
+Tytuł: Prawidłowa rejestracja w aplikacji
+
+Środowisko: Facebook.com
+
+Wersja: 0.0.1
+
+Warunek wstępny: Niezalogowany użytkownik, nieposiadający konta w aplikacji.
+
+Kroki do reprodukcji:
+1. Klikamy przycisk "Utwórz nowe konto"
+2. Wpisujemy "Imię, nazwisko, numer telefonu lub e-mail, nowe hasło, datę urodzenia i płeć"
+3. Klikamy "Zarejestruj się"
+
+Oczekiwany rezultat: Prawidłowa rejestracja użytkownika w aplikacji i stworzenie nowego konta.
+
+Warunki końcowe: Zarejestrowany użytkownik, utworzone nowe konto i przekierowanie na stronę główną.
+
+Dane testowe: Imię, nazwisko, numer telefonu lub e-mail, nowe hasło, data urodzenia i płeć
 
 Autor: Sebastian
